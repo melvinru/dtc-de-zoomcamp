@@ -1,0 +1,7 @@
+/.ipynb_checkpoints/
+/data_pgadmin/
+/ny_taxi_postgres_data/
+/venv/
+yellow_tripdata_2021-01.csv
+yellow_tripdata_2022-01.parquet
+green_tripdata_2019-01.csv
