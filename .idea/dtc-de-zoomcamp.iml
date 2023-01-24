@@ -6,8 +6,10 @@
       <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
       <excludeFolder url="file://$MODULE_DIR$/data_pgadmin" />
       <excludeFolder url="file://$MODULE_DIR$/ny_taxi_postgres_data" />
+      <excludeFolder url="file://$MODULE_DIR$/google-cloud-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/terraform" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (dtc-de-zoomcamp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
