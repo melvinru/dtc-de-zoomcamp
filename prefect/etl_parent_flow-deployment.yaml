@@ -1,5 +1,5 @@
 ###
-### A complete description of a Prefect Deployment for flow 'etl-parent-flow'
+### A complete description of a prefect Deployment for flow 'etl-parent-flow'
 ###
 name: Parameterized ETL
 description: null
