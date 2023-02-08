@@ -1,0 +1,70 @@
+  142  cd data-engineering-zoomcamp/
+  143  ls
+  144  rm prefect/
+  145  rmdir prefect/
+  146  rm -r prefect/
+  147  ls
+  148  git clone https://github.com/discdiver/prefect-zoomcamp.git
+  149  cd prefect-zoomcamp/
+  150  pip install -p requirements.txt
+  151  pip install -r requirements.txt
+  152  prefect version
+  153  docker-compose up -d
+  154  cd .
+  155  cd ..
+  156  docker-compose up -d
+  157  cd week_1_basics_n_setup/2_docker_sql/
+  158  ls
+  159  docker-compose up -d
+  160  jupyter notebook
+  161  docker ps
+  162  cd prefect-zoomcamp/flows/01_start/
+  163  ls
+  164  python ingest_data.py
+  165  prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
+  166  python ingest_data.py
+  167  cd ..
+  168  cd ~
+  169  ls
+  170  ls bin
+  171  cd data-engineering-zoomcamp/prefect-zoomcamp/
+  172  ls
+  173  pip install -r requirements.txt
+  174  cd flows/02_gcp/
+  175  ls
+  176  python retypo_etl_web_to_gcs.py
+  177  prefect block register -m prefect_gcp
+  178  python retypo_etl_web_to_gcs.py
+  179  prefect orion start
+  180  conda activate base
+  181  python retypo_etl_web_to_gcs.py
+  182  ls
+  183  cd prefect-zoomcamp/flows/02_gcp/
+  184  python retypo_etl_web_to_gcs.py
+  185  python retypo_etl_gcs_to_bq.py
+  186  cd ..
+  187  cd 03_deployments/
+  188  ls
+  189  python retypo_parameterized_flow.py
+  190  docker compose up -d
+  191  docker-compose up -d
+  192  cd ..
+  193  cd 02_gcp/
+  194  python retypo_etl_web_to_gcs.py
+  195  cd ../03_deployments/
+  196  python retypo_parameterized_flow.py
+  197  cd ../02_gcp/
+  198  python retypo_etl_web_to_gcs.py
+  199  cd ../03_deployments/
+  200  prefect deployment build ./parameterized_flow.py:etl_parent_flow -n "Parameterized ETL"
+  201  prefect deployment apply etl_parent_flow-deployment.yaml
+  202  prefect agent start -q 'default'
+  203  prefect deployment build ./retypo_parameterized_flow.py:etl_parent_flow -n "Parameterized ETL"
+  204  prefect deployment apply etl_parent_flow-deployment.yaml
+  205  cd ../02_gcp/
+  206  python retypo_etl_web_to_gcs.py
+  207  conda activate base
+  208  prefect orion start
+  209  prefect agent start -q 'default'
+  210  conda activate base
+  211  history
