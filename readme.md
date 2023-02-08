@@ -13,6 +13,6 @@ Deadline: 26 January (Thursday), 22:00 CET
 At this week we practice with the Prefect 
 
 * Code: [task, flow](prefect)
-* History bash : [command line history](https://github.com/melvinru/dtc-de-zoomcamp/blob/main/week_1_homework_B.sql)
+* History bash : [command line history](prefect/bash_history.txt)
 
 Deadline: 8 February (Wednesday), 22:00 CET
