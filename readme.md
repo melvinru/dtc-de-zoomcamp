@@ -16,3 +16,11 @@ At this week we practice with the Prefect
 * History bash : [command line history](prefect/bash_history.txt)
 
 Deadline: 8 February (Wednesday), 22:00 CET
+
+## Week 3 Homework
+
+At this week we loaded data from a GCP Bucket into Big Query
+
+* Code: [task, flow](week_3_homework.sql)
+
+Deadline: 13 February (Monday), 22:00 CET
