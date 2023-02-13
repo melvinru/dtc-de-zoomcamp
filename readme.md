@@ -21,6 +21,6 @@ Deadline: 8 February (Wednesday), 22:00 CET
 
 At this week we loaded data from a GCP Bucket into Big Query
 
-* Code: [task, flow](week_3_homework.sql)
+* Code: [BigQuery SQL statements](week_3_homework.sql)
 
 Deadline: 13 February (Monday), 22:00 CET
