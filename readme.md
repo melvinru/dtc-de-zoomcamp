@@ -24,3 +24,12 @@ At this week we loaded data from a GCP Bucket into Big Query
 * Code: [BigQuery SQL statements](week_3_homework.sql)
 
 Deadline: 13 February (Monday), 22:00 CET
+
+## Week 4 Homework
+
+In this homework, we used the models developed during the week 4 videos and enhance the already presented dbt project using taxi dataset.
+
+* Code: [BigQuery SQL statements](week_4_homework.sql)
+* Folder: [report](looker)
+
+Deadline: 25 February (Monday), 22:00 CET
